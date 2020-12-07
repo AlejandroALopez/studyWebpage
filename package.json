@@ -1,0 +1,17 @@
+{
+  "name": "studyWebpage",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server"
+  },
+  "repository": "https://github.com/AlejandroALopez/studyWebpage.git",
+  "author": "alejandro <lopez.alejandro@dali.dartmouth.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
