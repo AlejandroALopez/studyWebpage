@@ -48,6 +48,7 @@ module.exports = {
     }),
   ],
   devServer: {
-  hot: true,
-},
+    hot: true,
+  },
+  resolve: { extensions: ['.js', '.jsx'] },
 };
