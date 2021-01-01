@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import './style.scss';
 
 // import { fetchConstants } from '../actions/constantsActions';
 
@@ -13,9 +14,9 @@ class LandingPage extends React.Component {
 
   render() {
     return (
-      <div id="landingPage-container">
-        <div>
-          <p>This is the landing page! </p>
+      <div className="landingPage-container">
+        <div className="landingPage-header-container">
+          <div className="landingPage-header-title">This is the landing page!</div>
         </div>
       </div>
     );
