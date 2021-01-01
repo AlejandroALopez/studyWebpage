@@ -1,5 +1,4 @@
 import React from 'react';
-import { connect } from 'react-redux';
 import {
   BrowserRouter as Router, Route, Switch,
 } from 'react-router-dom';
@@ -31,5 +30,4 @@ class App extends React.Component {
   }
 }
 
-export default connect(null, {
-})(App);
+export default App;
