@@ -1,19 +1,109 @@
 @import '../../constants/variables.scss';
 
 .landingPage-container {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
 
-  .landingPage-header-container {
+  color: $white;
+  font-family: 'Roboto', sans-serif;
+
+  .landingPage-header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 
-    background-color: $black;
-    color: $white;
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
 
-    padding: 25px 0 25px;
+    height: 10vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+
+    .landingPage-header-name {
+      margin: 20px;
+      font-size: 24px;
+    }
+
+    .landingPage-header-navigation {
+      margin: 30px;
+      display: flex;
+      justify-content: space-around;
+
+      div {
+        margin: 25px;
+      }
+    }
 
  }
+
+ .homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+    background-color: $black;
+
+    span {
+      color: #9d0000;
+    }
+
+    .intro {
+      font-size: 40px;
+    }
+    .intro-2 {
+      font-size: 30px;
+    }
+    
+ }
+ .aboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+    background-color: #1c1a1a;
+  }
+  .skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+    background-color: #303030;
+  }
+  .work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+    background-color: #3f0e0e;
+  }
+  .interests {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+    background-color: #9d0000;
+  }
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+    background-color: #1c1a1a;
+  }
 }
