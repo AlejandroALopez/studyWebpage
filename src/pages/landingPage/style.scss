@@ -1,20 +1,19 @@
 @import '../../constants/variables.scss';
 
 .landingPage-container {
-  max-width: 1360px;
   margin: 0 auto;
 
   .landingPage-header-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    background-color: $yellow;
+    justify-content: space-around;
 
-    max-width: 100%;
-    padding: 15px 0 18px;
+    background-color: $black;
+    color: $white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 
-      .landingPage-header-title {
-        color: $blue;
-      }
+    padding: 25px 0 25px;
+
  }
 }
