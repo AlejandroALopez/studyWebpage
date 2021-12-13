@@ -32,19 +32,38 @@ export default function LandingPage(props) {
         </p>
       </div>
       <div className="aboutme">
-        About me
+        <div className="aboutme-info">
+          <i className="fas fa-globe-americas fa-3x" />
+          <p>Peru</p>
+        </div>
+        <div className="aboutme-info">
+          <i className="fas fa-graduation-cap fa-3x" />
+          <p>Computer Science</p>
+        </div>
       </div>
       <div className="skills">
-        About me
+        Skills
       </div>
       <div className="work">
-        About me
+        Work
       </div>
       <div className="interests">
-        About me
+        Interests
       </div>
       <div className="contact">
-        About me
+        <p className="contact-title">Contact info</p>
+        <div className="contact-info">
+          <i className="far fa-envelope fa-3x" />
+          <p>lopez.alejandro@dali.dartmouth.edu</p>
+        </div>
+        <div className="contact-info">
+          <i className="fas fa-mobile-alt fa-3x" />
+          <p>(+51) 957-605-311</p>
+        </div>
+        <div className="contact-buttons">
+          <i className="fab fa-linkedin fa-5x" />
+          <i className="fab fa-github fa-5x" />
+        </div>
       </div>
     </div>
   );
