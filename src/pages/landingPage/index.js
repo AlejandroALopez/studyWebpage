@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import cv from '../../assets/cv.pdf';
 // import { connect } from 'react-redux';
 import './style.scss';
 
@@ -18,7 +19,7 @@ export default function LandingPage(props) {
             <Link to="aboutme" spy smooth offset={50} duration={500}>ABOUT ME</Link>
           </div>
           <div>
-            <Link to="skills" spy smooth offset={50} duration={500}>HOME</Link>
+            <Link to="skills" spy smooth offset={50} duration={500}>SKILLS</Link>
           </div>
           <div>
             <Link to="work" spy smooth offset={50} duration={500}>WORK</Link>
@@ -47,9 +48,9 @@ export default function LandingPage(props) {
             <button type="button" className="intro-button">
               Contact me
             </button>
-            <button type="button" className="intro-button">
-              My Resume
-            </button>
+            <a className="intro-button" href={cv} target="_blank" rel="noreferrer">
+              <p>My resume</p>
+            </a>
           </div>
         </div>
       </div>
