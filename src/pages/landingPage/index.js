@@ -13,22 +13,22 @@ export default function LandingPage() {
         <div className="landingPage-header-name">Alejandro Lopez</div>
         <div className="landingPage-header-navigation">
           <div>
-            <Link to="homepage" spy smooth offset={50} duration={500}>HOME</Link>
+            <Link to="homepage" spy smooth duration={500}>HOME</Link>
           </div>
           <div>
-            <Link to="aboutme" spy smooth offset={50} duration={500}>ABOUT ME</Link>
+            <Link to="aboutme" spy smooth duration={500}>ABOUT ME</Link>
           </div>
           <div>
-            <Link to="skills" spy smooth offset={50} duration={500}>SKILLS</Link>
+            <Link to="skills" spy smooth duration={500}>SKILLS</Link>
           </div>
           <div>
-            <Link to="work" spy smooth offset={50} duration={500}>WORK</Link>
+            <Link to="work" spy smooth duration={500}>WORK</Link>
           </div>
           <div>
-            <Link to="interests" spy smooth offset={50} duration={500}>INTERESTS</Link>
+            <Link to="interests" spy smooth duration={500}>INTERESTS</Link>
           </div>
           <div>
-            <Link to="contact" spy smooth offset={50} duration={500}>CONTACT</Link>
+            <Link to="contact" spy smooth duration={500}>CONTACT</Link>
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@ export default function LandingPage() {
         </div>
       </div>
       <div className="skills" id="skills">
-        <p className="skills-title">Skilled in:</p>
+        <p className="skills-title">Coding Skills:</p>
         <div className="skills-list">
           <div>
             <p className="skills-tech">React Native</p>
