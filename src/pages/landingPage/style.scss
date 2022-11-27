@@ -1,11 +1,9 @@
-@import '../../constants/variables.scss';
-
 .landingPage-container {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
 
-  color: $white;
+  color: #ffffff;
   font-family: 'Roboto', sans-serif;
 
   .landingPage-header {
@@ -13,6 +11,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: #000000;
 
     font-size: 20px;
 
@@ -48,7 +47,7 @@
     width: 100%;
     height: 100vh;
 
-    background-color: $black;
+    background-color: #000000;
 
     .homepage-image {
       width: 30vw;
@@ -115,12 +114,49 @@
   }
   .skills {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    padding-top: 15vh;
+    padding-left: 10vh;
     width: 100%;
     height: 100vh;
 
     background-color: #303030;
+
+    .skills-title {
+      font-size: 30px;
+    }
+    .skills-tech {
+      font-size: 20px;
+    }
+    .skills-list {
+      margin-left: 50px;
+
+      .skills-bar {
+        height: 20px;
+        background-color: #9d0000;
+      }
+      #p80 {
+        width: 80%;
+      }
+      #p70 {
+        width: 70%;
+      }
+      #p60 {
+        width: 60%;
+      }
+      #p50 {
+        width: 50%;
+      }
+      #p40 {
+        width: 40%;
+      }
+      #p30 {
+        width: 30%;
+      }
+      #p20 {
+        width: 20%;
+      }
+    }
   }
   .work {
     display: flex;

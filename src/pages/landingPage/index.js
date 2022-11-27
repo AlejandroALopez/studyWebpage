@@ -42,7 +42,7 @@ export default function LandingPage(props) {
             {' '}
             and I am a
             {' '}
-            <span>Software Developer</span>
+            <span>Full-Stack Developer</span>
           </p>
           <div className="intro-buttons-container">
             <button type="button" className="intro-button">
@@ -65,7 +65,33 @@ export default function LandingPage(props) {
         </div>
       </div>
       <div className="skills" id="skills">
-        Skills
+        <p className="skills-title">Skilled in:</p>
+        <div className="skills-list">
+          <div>
+            <p className="skills-tech">React Native</p>
+            <div className="skills-bar" id="p80" />
+          </div>
+          <div>
+            <p className="skills-tech">React</p>
+            <div className="skills-bar" id="p70" />
+          </div>
+          <div>
+            <p className="skills-tech">HTML5 (HTML + CSS + JS)</p>
+            <div className="skills-bar" id="p70" />
+          </div>
+          <div>
+            <p className="skills-tech">NodeJS</p>
+            <div className="skills-bar" id="p60" />
+          </div>
+          <div>
+            <p className="skills-tech">Python</p>
+            <div className="skills-bar" id="p50" />
+          </div>
+          <div>
+            <p className="skills-tech">Unity</p>
+            <div className="skills-bar" id="p40" />
+          </div>
+        </div>
       </div>
       <div className="work" id="work">
         Work
