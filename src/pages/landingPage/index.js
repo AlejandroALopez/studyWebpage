@@ -6,7 +6,7 @@ import './style.scss';
 
 // import { fetchConstants } from '../actions/constantsActions';
 
-export default function LandingPage(props) {
+export default function LandingPage() {
   return (
     <div className="landingPage-container">
       <div className="landingPage-header">
@@ -33,7 +33,6 @@ export default function LandingPage(props) {
         </div>
       </div>
       <div className="homepage" id="homepage">
-        <img className="homepage-image" alt="profile_img" src="src/assets/profile.jpeg" />
         <div className="intro-container">
           <p className="intro">
             Hello! I am
@@ -55,13 +54,16 @@ export default function LandingPage(props) {
         </div>
       </div>
       <div className="aboutme" id="aboutme">
-        <div className="aboutme-info">
-          <i className="fas fa-globe-americas fa-3x" />
-          <p>Peru</p>
-        </div>
-        <div className="aboutme-info">
-          <i className="fas fa-graduation-cap fa-3x" />
-          <p>Computer Science</p>
+        <img className="aboutme-image" alt="profile_img" src="src/assets/profile.jpeg" />
+        <div className="aboutme-info-container">
+          <div className="aboutme-info">
+            <i className="fas fa-globe-americas fa-3x" />
+            <p>Peru</p>
+          </div>
+          <div className="aboutme-info">
+            <i className="fas fa-graduation-cap fa-3x" />
+            <p>Computer Science Major, Digital Arts Minor</p>
+          </div>
         </div>
       </div>
       <div className="skills" id="skills">
