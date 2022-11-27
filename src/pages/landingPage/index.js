@@ -69,27 +69,39 @@ export default function LandingPage(props) {
         <div className="skills-list">
           <div>
             <p className="skills-tech">React Native</p>
-            <div className="skills-bar" id="p80" />
+            <div className="skills-bar-background">
+              <div className="skills-bar" id="p90" />
+            </div>
           </div>
           <div>
             <p className="skills-tech">React</p>
-            <div className="skills-bar" id="p70" />
+            <div className="skills-bar-background">
+              <div className="skills-bar" id="p80" />
+            </div>
           </div>
           <div>
             <p className="skills-tech">HTML5 (HTML + CSS + JS)</p>
-            <div className="skills-bar" id="p70" />
+            <div className="skills-bar-background">
+              <div className="skills-bar" id="p80" />
+            </div>
           </div>
           <div>
             <p className="skills-tech">NodeJS</p>
-            <div className="skills-bar" id="p60" />
+            <div className="skills-bar-background">
+              <div className="skills-bar" id="p70" />
+            </div>
           </div>
           <div>
             <p className="skills-tech">Python</p>
-            <div className="skills-bar" id="p50" />
+            <div className="skills-bar-background">
+              <div className="skills-bar" id="p60" />
+            </div>
           </div>
           <div>
             <p className="skills-tech">Unity</p>
-            <div className="skills-bar" id="p40" />
+            <div className="skills-bar-background">
+              <div className="skills-bar" id="p50" />
+            </div>
           </div>
         </div>
       </div>
