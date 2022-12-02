@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import Skills from '../skills';
 import cv from '../../assets/cv.pdf';
 // import { connect } from 'react-redux';
 import './style.scss';
@@ -66,47 +67,7 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
-      <div className="skills" id="skills">
-        <p className="skills-title">Coding Skills:</p>
-        <div className="skills-list">
-          <div>
-            <p className="skills-tech">React Native</p>
-            <div className="skills-bar-background">
-              <div className="skills-bar" id="p90" />
-            </div>
-          </div>
-          <div>
-            <p className="skills-tech">React</p>
-            <div className="skills-bar-background">
-              <div className="skills-bar" id="p80" />
-            </div>
-          </div>
-          <div>
-            <p className="skills-tech">HTML5 (HTML + CSS + JS)</p>
-            <div className="skills-bar-background">
-              <div className="skills-bar" id="p80" />
-            </div>
-          </div>
-          <div>
-            <p className="skills-tech">NodeJS</p>
-            <div className="skills-bar-background">
-              <div className="skills-bar" id="p70" />
-            </div>
-          </div>
-          <div>
-            <p className="skills-tech">Python</p>
-            <div className="skills-bar-background">
-              <div className="skills-bar" id="p60" />
-            </div>
-          </div>
-          <div>
-            <p className="skills-tech">Unity</p>
-            <div className="skills-bar-background">
-              <div className="skills-bar" id="p50" />
-            </div>
-          </div>
-        </div>
-      </div>
+      <Skills />
       <div className="work" id="work">
         Work
       </div>
