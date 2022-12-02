@@ -6,7 +6,7 @@ export default function Skills() {
 
   return (
     <div className="container" id="skills">
-      <p className="title">Skills:</p>
+      <p className="title">{tab === 'code' ? 'Code Skills' : 'Soft Skills'}</p>
       <div className="tab-container">
         <button type="button" className={tab === 'code' ? 'tab-on' : 'tab-off'} onClick={() => setTab('code')}>
           <p>Code skills</p>
@@ -59,39 +59,39 @@ export default function Skills() {
         : (
           <div className="skills-container">
             <div>
-              <p className="skill">AAAA</p>
+              <p className="skill">Communication</p>
               <div className="bar-background">
-                <div className="bar" id="p90" />
+                <div className="bar bar-soft" id="p80" />
               </div>
             </div>
             <div>
-              <p className="skill">AAAA</p>
+              <p className="skill">Teamwork</p>
               <div className="bar-background">
-                <div className="bar" id="p80" />
+                <div className="bar bar-soft" id="p80" />
               </div>
             </div>
             <div>
-              <p className="skill">AAAA</p>
+              <p className="skill">Self-direction</p>
               <div className="bar-background">
-                <div className="bar" id="p80" />
+                <div className="bar bar-soft" id="p70" />
               </div>
             </div>
             <div>
-              <p className="skill">AAAA</p>
+              <p className="skill">Adaptability</p>
               <div className="bar-background">
-                <div className="bar" id="p70" />
+                <div className="bar bar-soft" id="p70" />
               </div>
             </div>
             <div>
-              <p className="skill">AAAA</p>
+              <p className="skill">Problem Solving</p>
               <div className="bar-background">
-                <div className="bar" id="p60" />
+                <div className="bar bar-soft" id="p70" />
               </div>
             </div>
             <div>
-              <p className="skill">AAAA</p>
+              <p className="skill">Leadership</p>
               <div className="bar-background">
-                <div className="bar" id="p50" />
+                <div className="bar bar-soft" id="p60" />
               </div>
             </div>
           </div>
