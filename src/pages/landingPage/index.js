@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import Skills from '../skills';
+import Work from '../work';
 import cv from '../../assets/cv.pdf';
 // import { connect } from 'react-redux';
 import './style.scss';
@@ -68,9 +69,7 @@ export default function LandingPage() {
         </div>
       </div>
       <Skills />
-      <div className="work" id="work">
-        Work
-      </div>
+      <Work />
       <div className="interests" id="interests">
         Interests
       </div>

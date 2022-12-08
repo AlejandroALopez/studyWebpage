@@ -5,7 +5,7 @@ export default function Skills() {
   const [tab, setTab] = useState('code');
 
   return (
-    <div className="container" id="skills">
+    <div className="skills-section" id="skills">
       <p className="title">{tab === 'code' ? 'Code Skills' : 'Soft Skills'}</p>
       <div className="tab-container">
         <button type="button" className={tab === 'code' ? 'tab-on' : 'tab-off'} onClick={() => setTab('code')}>
