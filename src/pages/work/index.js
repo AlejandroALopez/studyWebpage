@@ -21,7 +21,24 @@ export default function Work() {
       case 0: // first project: BayesEM
         return (
           <div className={index === 0 ? 'slide active' : 'slide'}>
-            BayesEM
+            <div className="project">
+              <div className="text-container">
+                <p className="project-title">BayesEM</p>
+                <p className="project-description">
+                  Mobile app made to assist medical residents on patient diagnoses, allowing them to select an initial confidence probability
+                  of the patient having a specific condition (pre-test), followed by a survey of symptoms that impact such probability (post-test).
+                </p>
+                <p className="project-description">
+                  The app was built on React Native and uses a Flask backend connected to a Mongo database. The latest version of the app
+                  was recently uploaded to Testflight.
+                </p>
+              </div>
+              <div className="images-container">
+                <img src={eq2Img1} className="image-eq2" alt="EQ2" />
+                <img src={eq2Img2} className="image-eq2" alt="EQ2" />
+                <img src={eq2Img3} className="image-eq2" alt="EQ2" />
+              </div>
+            </div>
           </div>
         );
       case 1: // first project: ConnectUS
