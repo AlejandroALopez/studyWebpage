@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import AboutMe from '../aboutMe';
 import Skills from '../skills';
 import Work from '../work';
+import Interests from '../interests';
 import cv from '../../assets/cv.pdf';
 // import { connect } from 'react-redux';
 import './style.scss';
@@ -55,28 +57,10 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
-      <div className="aboutme" id="aboutme">
-        <img className="aboutme-image" alt="profile_img" src="src/assets/profile.jpeg" />
-        <div className="aboutme-info-container">
-          <div className="aboutme-info">
-            <i className="fas fa-globe-americas fa-3x" />
-            <p>Peru</p>
-          </div>
-          <div className="aboutme-info">
-            <i className="fas fa-graduation-cap fa-3x" />
-            <p>Computer Science Major, Digital Arts Minor</p>
-          </div>
-        </div>
-      </div>
+      <AboutMe />
       <Skills />
       <Work />
-      <div className="interests" id="interests">
-        Interests
-        <i className="fa fa-gamepad fa-10x" />
-        <i className="fa fa-music fa-10x" />
-        <i className="fa fa-book-open fa-10x" />
-        <i className="fa fa-dumbbell fa-10x" />
-      </div>
+      <Interests />
       <div className="contact" id="contact">
         <p className="contact-title">Contact info</p>
         <div className="contact-info">
