@@ -20,24 +20,23 @@
     left: 0;
     top: 0;
     position: fixed;
-
-    .landingPage-header-name {
-      margin: 20px;
-      font-size: 24px;
-    }
-
-    .landingPage-header-navigation {
-      margin: 30px;
-      display: flex;
-      justify-content: space-around;
-
-      div {
-        margin: 25px;
-        cursor: pointer;
-      }
-    }
-
  }
+
+ .landingPage-header-name {
+  margin: 20px;
+  font-size: 24px;
+}
+
+.landingPage-header-navigation {
+  margin: 30px;
+  display: flex;
+  justify-content: space-around;
+
+  div {
+    margin: 25px;
+    cursor: pointer;
+  }
+}
 
  .homepage {
     display: flex;
@@ -48,41 +47,48 @@
     height: 100vh;
 
     background-color: #000000;
-
-    .intro-container {
-      width: 50%;
-
-      .intro {
-        font-size: 40px;
-      }
-      span {
-        color: #9d0000;
-      }  
-    }
-
-    .intro-buttons-container {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-
-      .intro-button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #ffffff;
-        width: 10vw;
-        height: 7.5vh;
-        margin: 1rem;
-        font-size: 18px;
-        border-radius: 10px;
-        text-decoration: none;
-        border: none;
-
-        p {
-          color: #000000;
-        }
-      }
-    }
  }
+
+ .intro-container {
+  width: 50%;
+
+  .intro {
+    font-size: 40px;
+  }
+  span {
+    color: #9d0000;
+  }  
+}
+
+.intro-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 150px;
+  height: 50px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-size: 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
+  transition: transform .3s;
+
+  p {
+    color: #000000;
+  }
+}
+
+.intro-button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
 }

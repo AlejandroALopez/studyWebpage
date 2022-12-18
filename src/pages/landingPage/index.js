@@ -49,9 +49,11 @@ export default function LandingPage() {
             <span>Full-Stack Developer</span>
           </p>
           <div className="intro-buttons-container">
-            <button type="button" className="intro-button">
-              Contact me
-            </button>
+            <Link to="contact" spy smooth duration={500}>
+              <button type="button" className="intro-button">
+                Contact me
+              </button>
+            </Link>
             <a className="intro-button" href={cv} target="_blank" rel="noreferrer">
               <p>My resume</p>
             </a>

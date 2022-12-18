@@ -32,7 +32,13 @@
 
     .button {
       color: #ffffff;
-      margin-right: 10vw;
-      margin-left: 10vw;
+      margin-right: 7.5vw;
+      margin-left: 7.5vw;
+      transition: transform .3s;
+    }
+  
+    .button:hover {
+      cursor: pointer;
+      transform: scale(1.3);
     }
   }
