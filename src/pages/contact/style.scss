@@ -8,11 +8,11 @@
 
     background-color: #1c1a1a;
 
-    .contact-title {
+    .title {
       font-size: 48px;
     }
 
-    .contact-info {
+    .info-container {
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -23,11 +23,16 @@
       }
     }
 
-    .contact-buttons {
+    .buttons-container {
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
-      width: 300px;
+      justify-content: space-around;
       margin-top: 5vh;
+    }
+
+    .button {
+      color: #ffffff;
+      margin-right: 10vw;
+      margin-left: 10vw;
     }
   }
