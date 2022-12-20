@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
-import eq2Img1 from '../../assets/EQ2/img1.png';
-import eq2Img2 from '../../assets/EQ2/img2.png';
-import eq2Img3 from '../../assets/EQ2/img3.png';
+import eq2Img1 from '../../assets/EQ2/EQ2img1.png';
+import eq2Img2 from '../../assets/EQ2/EQ2img2.png';
+import eq2Img3 from '../../assets/EQ2/EQ2img3.png';
+import bayesEMImg1 from '../../assets/BayesEM/BayesEMimg1.png';
+import bayesEMImg2 from '../../assets/BayesEM/BayesEMimg2.png';
+import bayesEMImg3 from '../../assets/BayesEM/BayesEMimg3.png';
+import connectUSimg1 from '../../assets/ConnectUS/connectUSimg1.png';
 import './style.scss';
 
 export default function Work() {
@@ -34,9 +38,9 @@ export default function Work() {
                 </p>
               </div>
               <div className="images-container">
-                <img src={eq2Img1} className="image-eq2" alt="EQ2" />
-                <img src={eq2Img2} className="image-eq2" alt="EQ2" />
-                <img src={eq2Img3} className="image-eq2" alt="EQ2" />
+                <img src={bayesEMImg1} className="image-eq2" alt="EQ2" />
+                <img src={bayesEMImg2} className="image-eq2" alt="EQ2" />
+                <img src={bayesEMImg3} className="image-eq2" alt="EQ2" />
               </div>
             </div>
           </div>
@@ -44,7 +48,22 @@ export default function Work() {
       case 1: // first project: ConnectUS
         return (
           <div className={index === 1 ? 'slide active' : 'slide'}>
-            ConnectUS
+            <div className="project">
+              <div className="text-container">
+                <p className="project-title">ConnectUS</p>
+                <p className="project-description">
+                  A web tool from Llega Inc. which I was able to contribute to as an intern. It helps managers organize
+                  all kinds of team dynamics, such as meetings, notes, and prorgee
+                </p>
+                <p className="project-description">
+                  I mainly interacted with the frontend, which is written in React, and was also able to
+                  do some tasks in the backend, which was built on Typescript, a tool I was unfamiliar at the time.
+                </p>
+              </div>
+              <div className="images-container">
+                <img src={connectUSimg1} className="image-connectus" alt="connectus" />
+              </div>
+            </div>
           </div>
         );
       case 2: // first project: EQ2
