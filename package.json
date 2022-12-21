@@ -2,8 +2,11 @@
   "name": "studyWebpage",
   "version": "1.0.0",
   "main": "src/index.js",
+  "homepage": "https://AlejandroALopez.github.io/studyWebpage/",
   "scripts": {
-    "start": "NODE_ENV=development webpack-dev-server"
+    "start": "NODE_ENV=development webpack-dev-server",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": "https://github.com/AlejandroALopez/studyWebpage.git",
   "author": "alejandro <lopez.alejandro@dali.dartmouth.edu>",
@@ -33,6 +36,7 @@
   },
   "dependencies": {
     "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
     "jquery": "^3.5.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
