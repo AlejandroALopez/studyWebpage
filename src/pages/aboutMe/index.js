@@ -15,17 +15,19 @@ export default function AboutMe() {
           When designers make a beautiful screen, or when partners are excited about a new feature, it is like Christmas for me.
           I open my code editor, play my favorite songs, lose track of time, and think for myself: This is going to be fun.
         </p>
-        <div className="aboutme-point">
-          <i className="fas fa-globe-americas fa-3x" />
-          <p>Born in Lima, Peru</p>
-        </div>
-        <div className="aboutme-point">
-          <i className="fas fa-graduation-cap fa-3x" />
-          <p>Computer Science Major, Digital Arts Minor</p>
-        </div>
-        <div className="aboutme-point">
-          <i className="fa fa-university fa-3x" />
-          <p>Dartmouth College</p>
+        <div className="point-container">
+          <div className="aboutme-point">
+            <i className="fas fa-globe-americas fa-3x" />
+            <p>Born in Lima, Peru</p>
+          </div>
+          <div className="aboutme-point">
+            <i className="fas fa-graduation-cap fa-3x" />
+            <p>Computer Science Major, Digital Arts Minor</p>
+          </div>
+          <div className="aboutme-point">
+            <i className="fa fa-university fa-3x" />
+            <p>Dartmouth College</p>
+          </div>
         </div>
       </div>
     </div>
