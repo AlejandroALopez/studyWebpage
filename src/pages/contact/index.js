@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div className="contact-container" id="contact">
       <p className="title">Contact info</p>
-      <div className="info-container">
+      <div className="info-container mail-container">
         <i className="far fa-envelope fa-3x" />
         <p>alejandro.a.lopez.cochachi.23@dartmouth.edu</p>
       </div>

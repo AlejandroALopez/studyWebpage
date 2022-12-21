@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 150px;
 
     background-color: #1c1a1a;
 
@@ -40,5 +40,16 @@
     .button:hover {
       cursor: pointer;
       transform: scale(1.3);
+    }
+
+    @media screen and (max-width: 625px){
+      .mail-container {
+        flex-direction: column;
+        align-items: center;
+
+        p {
+          font-size: 18px;
+        }
+      }
     }
   }
