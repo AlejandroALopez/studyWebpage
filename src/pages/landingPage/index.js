@@ -14,9 +14,9 @@ import './style.scss';
 export default function LandingPage() {
   return (
     <div className="landingPage-container">
-      <div className="landingPage-header">
-        <div className="landingPage-header-name">Alejandro Lopez</div>
-        <div className="landingPage-header-navigation">
+      <div className="header-container">
+        <div className="header-name">Alejandro Lopez</div>
+        <div className="header-navigation">
           <div>
             <Link to="homepage" spy smooth duration={500}>HOME</Link>
           </div>
@@ -36,6 +36,11 @@ export default function LandingPage() {
             <Link to="contact" spy smooth duration={500}>CONTACT</Link>
           </div>
         </div>
+        <div className="header-dropdown-container">
+          <div className="dropdown-line" />
+          <div className="dropdown-line" />
+          <div className="dropdown-line" />
+        </div>
       </div>
       <div className="homepage" id="homepage">
         <div className="intro-container">
@@ -54,8 +59,10 @@ export default function LandingPage() {
                 Contact me
               </button>
             </Link>
-            <a className="intro-button" href={cv} target="_blank" rel="noreferrer">
-              <p>My resume</p>
+            <a className="hyperlink" href={cv} target="_blank" rel="noreferrer">
+              <button type="button" className="intro-button">
+                My resume
+              </button>
             </a>
           </div>
         </div>
