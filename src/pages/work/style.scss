@@ -1,9 +1,8 @@
 .work-section {
     display: flex;
     flex-direction: column;
-    padding-top: 10vh;
-    width: 100%;
-    height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #3f0e0e;
 
     .title {
@@ -29,6 +28,7 @@
 
     .project {
         display: flex;
+        flex-direction: row;
         height: 75vh;
         width: 75vw;
         background-color: #000000;
@@ -56,17 +56,33 @@
     }
 
     .image-eq2 {
-        height: 50vh;
-        width: 25vh;
+        height: 350px;
+        width: 175px;
         margin: 20px;
         border-radius: 15px;
     }
 
     .image-connectus {
-        height: 50vh;
-        width: 90vh;
+        height: 60%;
+        width: 90%;
         margin: 20px;
         border-radius: 15px;
+    }
+    @media screen and (max-width: 1200px){
+        .project {
+          flex-direction: column;
+          height: 100%;
+        }
+        .text-container {
+            width: 90%;
+        }
+        .project-description {
+            align-items: center;
+        }
+        .images-container {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
     }
 }
 
