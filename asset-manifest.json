@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/studyWebpage/static/css/main.84ccf819.css",
+    "main.js": "/studyWebpage/static/js/main.1e1a85d1.js",
+    "static/media/BayesEMimg3.png": "/studyWebpage/static/media/BayesEMimg3.4c0252bbf215d213530c.png",
+    "static/media/EQ2img2.png": "/studyWebpage/static/media/EQ2img2.52138dab9f8a9580576d.png",
+    "static/media/connectUSimg1.png": "/studyWebpage/static/media/connectUSimg1.61cdcb2906f16a90ad15.png",
+    "static/media/BayesEMimg1.png": "/studyWebpage/static/media/BayesEMimg1.c66fabe241aed71fef79.png",
+    "static/media/BayesEMimg2.png": "/studyWebpage/static/media/BayesEMimg2.9a44895c0bdc7f7be8a9.png",
+    "static/media/EQ2img3.png": "/studyWebpage/static/media/EQ2img3.bdae01bad801b9f232c3.png",
+    "static/media/EQ2img1.png": "/studyWebpage/static/media/EQ2img1.958c448790a34fcf992c.png",
+    "static/media/cv.pdf": "/studyWebpage/static/media/cv.d4a07a8bbcbc9b1de934.pdf",
+    "index.html": "/studyWebpage/index.html",
+    "main.84ccf819.css.map": "/studyWebpage/static/css/main.84ccf819.css.map",
+    "main.1e1a85d1.js.map": "/studyWebpage/static/js/main.1e1a85d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84ccf819.css",
+    "static/js/main.1e1a85d1.js"
+  ]
+}
